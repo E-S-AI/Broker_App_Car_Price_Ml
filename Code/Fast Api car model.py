@@ -79,7 +79,7 @@ async def predict_price(
     
 from pyngrok import ngrok
 # Set the authtoken for ngrok
-ngrok.set_auth_token("2qqOEoeQ7dHajMdtIzvpFffyrXe_5B6EUP3zbzcuGE1DiMcmT")
+ngrok.set_auth_token("Your Token from ngrok")
 
 # Start ngrok to tunnel the FastAPI server
 public_url = ngrok.connect(8000)
