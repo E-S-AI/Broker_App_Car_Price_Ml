@@ -1,0 +1,14 @@
+
+---
+
+### ✅ `.gitignore`
+
+```gitignore
+*.pyc
+__pycache__/
+xgboost_model.joblib
+scaler.joblib
+label_encoders.joblib
+*.pkl
+.DS_Store
+*.log
